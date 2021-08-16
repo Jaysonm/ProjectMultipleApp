@@ -1,0 +1,59 @@
+{
+  "name": "@jm/app2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "expo-yarn-workspaces postinstall",
+    "build_apk_beta" : "npx cross-env APP_ENV=app2 eas build --platform android --profile beta",
+    "start": "npx cross-env APP_ENV=app2 expo start",
+    "init_client_android": "npx cross-env APP_ENV=app2 expo run:android",
+    "start_client": "npx cross-env APP_ENV=app2 expo start --dev-client"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-push-notification": "^7.4.0",
+    "react-native-safe-area-context": "3.2.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-screens": "~3.4.0",
+    "react-native-unimodules": "~0.14.5"
+  },
+  "devDependencies": {
+    "@expo/metro-config": "^0.1.80"
+  },
+  "expo-yarn-workspaces": {
+    "symlinks": [
+      "@unimodules/core",
+      "@unimodules/react-native-adapter",
+      "expo-application",
+      "expo-asset",
+      "expo-barcode-scanner",
+      "expo-constants",
+      "expo-error-recovery",
+      "expo-file-system",
+      "expo-font",
+      "expo-image-loader",
+      "expo-keep-awake",
+      "expo-modules-core",
+      "expo-splash-screen",
+      "expo-structured-headers",
+      "expo-updates-interface",
+      "expo-updates",
+      "expo-camera",
+      "expo-permissions",
+      "expo-document-picker",
+      "expo-image-picker",
+      "expo-sharing",
+      "expo-network",
+      "expo-localization",
+      "expo-location",
+      "expo-linking",
+      "expo-local-authentication",
+      "unimodules-app-loader",
+      "unimodules-task-manager-interface"
+    ]
+  }
+}

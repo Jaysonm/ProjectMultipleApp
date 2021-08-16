@@ -1,0 +1,11 @@
+{
+  "name": "App 2",
+  "appName" : "App2",
+  "scheme": "app2",
+  "version": "1.0.0",
+  "versionCode" : 1,
+  "icon": "./../../packages/assets/icons/icon.waw.png",
+  "splashBkColor": "#099c6a",
+  "androidIdentifier" : "com.jm.app2",
+  "iosIdentifier" : "com.jm.app2"
+}

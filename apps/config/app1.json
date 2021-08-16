@@ -1,0 +1,11 @@
+{
+  "name": "App 1",
+  "appName" : "App1",
+  "scheme": "app1",
+  "version": "1.0.0",
+  "versionCode" : 1,
+  "icon": "./../../packages/assets/icons/icon.png",
+  "splashBkColor": "#fff",
+  "androidIdentifier" : "com.jm.app1",
+  "iosIdentifier" : "com.jm.app1"
+}

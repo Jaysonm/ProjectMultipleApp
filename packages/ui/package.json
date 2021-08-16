@@ -1,0 +1,14 @@
+{
+  "name": "@jm/ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "UI components for React Native",
+  "author": "Jayson Metivier",
+  "scripts": {
+    "postinstall": "echo 'Nothing to post-install'",
+    "build_beta" : "echo 'Nothing to build beta'"
+  },
+  "dependencies": {
+    "@jm/assets": "*"
+  }
+}

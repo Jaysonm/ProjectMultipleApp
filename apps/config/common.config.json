@@ -1,0 +1,37 @@
+{
+  "description": "Test project",
+  "sdkVersion": "42.0.0",
+  "privacy": "unlisted",
+  "orientation": "portrait",
+  "platforms": ["ios", "android"],
+  "splash": {
+    "resizeMode": "contain"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": false,
+    "infoPlist": {
+      "NSFaceIDUsageDescription" : "This app uses faceId to facilitate authentication",
+      "NSCameraUsageDescription": "This app uses the camera to scan QR Code and doing some action, like booking",
+      "NSLocationWhenInUseUsageDescription": "This app uses the location to find building around you"
+    }
+  },
+  "android": {
+    "softwareKeyboardLayoutMode": "pan",
+    "permissions": [
+      "RECORD_AUDIO",
+      "CAMERA",
+      "ACCESS_COARSE_LOCATION",
+      "ACCESS_FINE_LOCATION",
+      "READ_PHONE_STATE",
+      "READ_CONTACTS",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE",
+      "USE_BIOMETRIC",
+      "USE_FINGERPRINT"
+    ]
+  }
+}

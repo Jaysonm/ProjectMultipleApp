@@ -1,0 +1,22 @@
+{
+  "build": {
+    "release": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "releaseChannel": "prod"
+    },
+    "beta": {
+      "android": {
+        "releaseChannel": "beta",
+        "gradleCommand": ":app:assembleRelease",
+        "buildType": "apk"
+      }
+    },
+    "development": {
+      "releaseChannel": "dev",
+      "developmentClient": true,
+      "distribution": "internal"
+    }
+  }
+}

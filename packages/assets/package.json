@@ -1,0 +1,11 @@
+{
+  "name": "@jm/assets",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Assets to build application",
+  "author": "Jayson Metivier",
+  "scripts": {
+    "postinstall": "echo 'Nothing to post-install'",
+    "build_beta" : "echo 'Nothing to build beta'"
+  }
+}
